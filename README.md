@@ -1,0 +1,1 @@
+A background color generator using CSS and Javascript.
