@@ -8,6 +8,8 @@ body {
 	background: linear-gradient(to right, red , yellow); /* Standard syntax */
 }
 
+
+
 h1 {
     font: 600 3.5em 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
@@ -15,6 +17,26 @@ h1 {
     text-transform: uppercase;
     letter-spacing: .5em;
     width: 100%;
+}
+
+@media screen and (max-width: 650px){
+    h1 {
+        font: 600 1.5em 'Raleway', sans-serif;
+        color: rgba(0,0,0,.5);
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 15%;
+        text-align: center;
+        color: #ecf0f1;
+        font-size: 1em;
+    }
+    
+
 }
 
 h3 {
